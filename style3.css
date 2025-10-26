@@ -186,9 +186,30 @@
 
 }
 
+.photos img{
+    border-radius: 15px;
+}
+
+.photos img:hover{
+    transition: 0.5s ease;
+    translate: 5px -5px;
+}
+
 .heading-works p {
     margin-top: 30px;
 
+}
+
+.services-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.our-services{
+    border: 1px solid gray;
+    margin: 5px;
+    background-color: #32dbc6;
 }
 
 @media only screen and (max-width: 600px) {
@@ -397,7 +418,5 @@
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
-    
 
-  
 }
